@@ -1,14 +1,4 @@
-# A program with two games
-# 01. Math quiz
-# 02. GK quiz    5 Questions each
-# Requirements
-# 1. User have to enter the name
-# 2. Option for type of game
-# 3. Final Score
-# 4. Comment of user's performance
-
-
-
+# Created by HVGroot on 24/06/2021
 
 x= input("Please enter your name: ")
 print('\n---------Trivia Games-----------')
@@ -50,13 +40,6 @@ if(y==1):
         print('Good')
     else:
         print('Better luck next time')
-
-    #for answers in answers_mathquiz:
-        #if (answers==['b','a','c','c']):
-            #score+=1
-            #break
-        #print('your score is: ', score) 
-
 elif(y==2):
     print('\n Welcome to General Knowledge Quiz')
     print('\n1.The missile man of India: \n\na. APJ\nb. Nehru\nc. Satish Dhawan')
