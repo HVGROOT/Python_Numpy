@@ -11,7 +11,6 @@ answers_GKquiz= ['a','a','a','a']
 score=0
 if(y==1):
     print('\n Welcome to Math Quiz')
-    #print('\n Go to Questions --->')
     print('\n1.Choose the odd number: \n\na. 2\nb. 3  \nc. 4 ')
     a= input('Answer: ')
     answer1= answers_mathquiz[0]
